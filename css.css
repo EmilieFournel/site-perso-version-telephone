@@ -8,92 +8,96 @@ body{
     background: brown;
     margin: auto;
     margin-right: auto;
+   
     }
 
 .text{
+    flex-direction: row;
+    display: flex;
+    left: 30%;
+    top: -2%;
     color: rgb(255, 255, 255);
-    text-align: center;
-    margin-right: 25px;
     font-size: 70px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
     }
         
         
 .textbis{
+    flex-direction: row;
+    display: flex;
+    left: 29%;
+    top: 3%;
     color: rgb(255, 255, 255);
-    text-align: center;
     font-size: 30px;
-    margin-top: -40px;
     }
 
 .carre3{
    width: hidden;
    margin: auto;
-   background: khaki;
+   background: rgb(238, 175, 93);
    height: 250px;
    margin-top: 15px;
+   flex-direction: column;
+    display: flex;
    }
 
 .carre2{
-   background: burlywood;
+   background: rgb(248, 160, 45);
    margin: auto;
    width: hidden;
    margin-top: 15px ;
-   margin-left: auto
+   margin-left: auto;
+   flex-direction: row;
+    display: flex;
 }
 
 .carre4{
-    background: brown;
-    margin: auto;
-    width: 700px ;
-    margin-left: auto ;
-    margin-top: 15px;
+    background: khaki;
+    width: 340px;
+    height: 845px;
+    margin-top: 10px;
+    flex-direction: column;
+    display: flex;
 }
 
+.oui{
+    flex-direction: column;
+    display: flex;
+}
 
 .img{
-    width: 60px;
+    width: 240px;
     height: 60px;
-    width: auto;
-    margin-left: auto;
-    padding-top: auto;
-    margin-left: 35px;
-    margin-bottom: 30px;
+    margin-top: 35px;
+    margin-left: 55px;
     }
     
     
 .img2{
     width: 130px;
     height: 130px;
-    width: auto;
-    margin-left: auto;
-    padding-top: auto;
-    margin-left: 35px;
+    margin-left: 75px;
     }
     
     
 .img3{
     width: 115px;
     height: 115px;
-    width: auto;
-    margin-left: auto;
-    padding-top: auto;
-    margin-left: 35px;
+    margin-left: 75px;
+    margin-top: 10px;
     }
     
 .img4{
     width: 125px;
     height: 125px;
-    width: auto;
-    margin-left: auto;
-    padding-top: auto;
-    margin-left: 35px;
+    margin-left: 75px;
     }
 
 .img5{
-    width: 596px;
-    height: 842px;
+    width: 100%
     margin: 10px;
+    margin-top: 10px
 }
 
 .p1{
@@ -108,3 +112,13 @@ body{
     text-align: center;
     font-style: normal;
   }
+
+  /*
+  @media (min-width: 900px) {
+        body{
+            display: grid; 
+            grid-template-columns: 1fr 3fr 1fr;  
+            
+        }
+
+  }*/

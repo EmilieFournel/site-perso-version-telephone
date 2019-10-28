@@ -108,6 +108,19 @@ body{
     margin-top: 10px
 }
 
+.img6{
+    width: 300px;
+    height: 300px;
+    margin-top: 10px;
+}
+
+.p3{
+margin: auto;
+font-size: 25px;
+font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+margin-left: 100px;
+}
+
 .p1{
    font-size: 25px;
    text-align: center;

@@ -4,17 +4,17 @@ body{
     
 .carre{
     width: hidden;
-    height: 140px;
+    height: auto;
     background: brown;
-    margin: auto;
     margin-right: auto;
    
     }
 
 .text{
     flex-direction: row;
-    display: flex;
-    left: 30%;
+    display: grid;
+    grid-template-columns: 100%;
+    text-align: center;
     top: -2%;
     color: rgb(255, 255, 255);
     font-size: 70px;
@@ -25,21 +25,25 @@ body{
         
 .textbis{
     flex-direction: row;
-    display: flex;
-    left: 29%;
-    top: 3%;
+    display: grid;
+    grid-template-columns: 100%;
+    text-align: center;
+    margin-top: -50px;
+    padding: 3%;
     color: rgb(255, 255, 255);
     font-size: 30px;
     }
 
 .carre3{
-   width: hidden;
    margin: auto;
+   text-align: center;
    background: rgb(238, 175, 93);
-   height: 250px;
-   margin-top: 15px;
+   height: auto;
+   margin-top: 5px;
    flex-direction: column;
-    display: flex;
+    display: grid;
+    grid-template-columns: 100%;
+    justify-content: center;
    }
 
 .carre2{
@@ -54,11 +58,16 @@ body{
 
 .carre4{
     background: khaki;
-    width: 340px;
-    height: 845px;
+    width: auto;
+    height: auto;
     margin-top: 10px;
     flex-direction: column;
     display: flex;
+}
+
+.p2{
+    text-align: center;
+    font-size: 30px;
 }
 
 .oui{
@@ -95,8 +104,7 @@ body{
     }
 
 .img5{
-    width: 100%
-    margin: 10px;
+    width: 100%;
     margin-top: 10px
 }
 

@@ -72,6 +72,7 @@ body{
 
 .oui{
     flex-direction: column;
+    grid-template-columns: 1fr 1fr;
     display: flex;
 }
 
@@ -109,23 +110,27 @@ body{
 }
 
 .img6{
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     margin-top: 10px;
+}
+
+.img7{
+    width: auto;
+    height: 400px;
 }
 
 .p3{
 margin: auto;
 font-size: 25px;
 font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
-margin-left: 100px;
+margin-left: 70px;
 }
 
 .p1{
    font-size: 25px;
    text-align: center;
    font-style: italic;
-  
   }
   
 .p1-1{

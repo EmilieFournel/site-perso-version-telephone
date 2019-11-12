@@ -48,6 +48,7 @@ body{
 .carre2{
    background: rgb(248, 160, 45);
    margin: auto;
+
    margin-top: 15px ;
    margin-left: auto;
    flex-direction: row;

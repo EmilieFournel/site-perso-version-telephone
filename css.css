@@ -64,6 +64,17 @@ body{
     display: flex;
 }
 
+.carre5{
+margin: auto;
+padding-top: 10px
+width: 90%;
+display: flex;
+flex-flow: row wrap;
+justify-content: center;
+background-color: cornsilk;
+border: 5px solid black;
+}
+
 .p2{
     text-align: justify;
     font-family: 'Hind', sans-serif;
@@ -191,6 +202,11 @@ margin-left: 7%;
         .carre2{
             width: 100%;
             grid-column: 1/-1;
+        }
+
+        .carre5{
+            width: 99.7%;
+            grid-column: 1/-1;   
         }
 
   }
